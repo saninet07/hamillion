@@ -1,0 +1,19 @@
+            - name: ESPHome Builder
+  # You may pin to the exact commit or the version.
+  # uses: esphome/build-action@76cd6898550762b189215bbe6e50e29080fd2c33
+  uses: esphome/build-action@v7.0.0
+  with:
+    # YAML file to use
+    yaml-file: 
+    # Version of ESPHome to build
+    version: # optional, default is latest
+    # Platform (OS/Arch) to use
+    platform: # optional, default is linux/amd64
+    # Release summary
+    release-summary: # optional, default is 
+    # Release URL
+    release-url: # optional, default is 
+    # Output complete esp-web-tools manifest.json
+    complete-manifest: # optional
+
+        
