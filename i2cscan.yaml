@@ -1,0 +1,21 @@
+esphome:
+  name: i2cscan
+
+esp32:
+  board: esp32dev
+  framework:
+    type: arduino
+
+wifi:
+  ssid: "1M"
+  password: "48885119"
+  ap:
+    ssid: "i2cscan-fallback"
+    password: "12345678"
+
+logger:
+
+i2c:
+  sda: 21
+  scl: 19
+  scan: true
